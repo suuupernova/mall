@@ -6,8 +6,13 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   name: 'App'
+  // mounted(){
+  //   axios.get(expression)
+    
+  // }
 }
 </script>
 
