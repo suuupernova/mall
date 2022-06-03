@@ -7,14 +7,19 @@
 
 <script>
 import storage from './storage/index'
-import axios from 'axios'
+//import axios from 'axios'
+import jsonp from 'jsonp'
 export default {
   name: 'app',
   mounted(){
+    let url = ""
     //storage.setItem('a',1);
     //storage.setItem('user',{a:1});
     //storage.setItem('abc',{a:1},'user');
     //storage.clear('a');
+    jsonp(url,()=>{
+      
+    })
     storage.clear('a','user');
     
   }
